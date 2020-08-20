@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-html,body{
+html,
+body {
   display: grid;
   height: 100%;
   width: 100%;
@@ -23,7 +24,7 @@ html,body{
   background: #fff;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-out;
 }
 
@@ -77,7 +78,7 @@ html,body{
 }
 
 .wrapper .button:hover .icon i {
-color: #fff;
+  color: #fff;
 }
 
 .wrapper .button span {
@@ -114,4 +115,8 @@ color: #fff;
 
 .wrapper .button:nth-child(7) span {
   color: #ff0000;
+}
+
+a {
+  text-decoration: none;
 }
